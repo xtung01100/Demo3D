@@ -12,18 +12,13 @@ public class GrenadeLauncher : MonoBehaviour
     public AudioSource shootingSound;
     public Animator anim;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(LeftMouseButton))
         {
             ShootBullet();
-            Addprojectile();
+            //Addprojectile();
 
         }
         
